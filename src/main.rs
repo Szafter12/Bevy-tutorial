@@ -48,6 +48,7 @@ fn move_paddle (
         if input.pressed(KeyCode::KeyA) {
             direction -= 1.0;
         }
+        
         if input.pressed(KeyCode::KeyD) {
             direction += 1.0;
         }
